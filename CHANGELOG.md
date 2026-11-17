@@ -10,8 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### 🔧 Enhanced
 
 #### Dependency Updates
+- **Nushell 0.117.0**: Updated nu-plugin, nu-protocol, and nu-test-support to 0.117.0
 - **Nushell 0.116.1**: Updated nu-plugin, nu-protocol, and nu-test-support to 0.116.1
-- **MSRV 1.96.1**: Updated minimum supported Rust version to match nu-protocol 0.116.1
+- **MSRV 1.97.1**: Updated minimum supported Rust version to match nu-protocol 0.117.0
 
 #### Compatibility
 - **`Type::Record`**: Adapted to `CollectionColumns<Type>` replacing `Box<[Type]>`

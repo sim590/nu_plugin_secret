@@ -458,11 +458,7 @@ impl SerializationTestable for SecretDate {
 
         // Also check for partial matches (year, month, etc)
         let year = revealed.format("%Y").to_string();
-        if serialized.contains(&year) && serialized.contains("2023") {
-            return true;
-        }
-
-        false
+        serialized.contains(&year) && serialized.contains("2023")
     }
 }
 
